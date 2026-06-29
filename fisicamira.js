@@ -28,8 +28,8 @@ function createTouchHook({ dragReduction = 0.4, speedMultiplier = 0.6, maxAimSpe
 
  function sendToGame(modified) {
    console.log("🎮 Input enviado ao jogo:", modified);
-   // aim.x += modified.dx;
-   // aim.y += modified.dy;
+    aim.x += modified.dx;
+    aim.y += modified.dy;
  }
 
  function onTouchStart(e) {
