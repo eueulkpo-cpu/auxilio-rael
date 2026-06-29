@@ -1,0 +1,55 @@
+
+button{
+    display: block;
+    margin: 20px auto;
+    color: #151414;
+    border: 10px solid #ee0000;
+    border-radius: 10px;
+    background-color: #d92222;
+
+}
+
+h1{
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    color: #09005f;
+}
+
+
+body{
+    background-color: #0f0f0f;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    color: #ff0000;
+    text-align: center;
+}
+
+.caixa{
+ border: 2px solid #ff0000;
+ box-shadow: 0 0 19px #ff0000;
+ border-radius: 10px;
+width: 300px;
+
+}
+
+/*tela de login*/
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#telaprincipal {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
