@@ -1,4 +1,4 @@
-function createTouchHook({ dragReduction = 0.4, speedMultiplier = 0.6, maxAimSpeed = 300 } = {}) {
+function createTouchHook({ dragReduction = 0.10, speedMultiplier = 0.10, maxAimSpeed = 100 } = {}) {
  let origin = null;
  let hookAtivo = false;
 
