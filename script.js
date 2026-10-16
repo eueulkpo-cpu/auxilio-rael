@@ -1,4 +1,4 @@
-const switchBtn = document.getElementById('auxilio , travamira');
+const switchBtn = document.getElementById('auxilio');
 
 switchBtn.addEventListener('change', function () {
     if (this.checked) {
